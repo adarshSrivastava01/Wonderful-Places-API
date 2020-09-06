@@ -27,7 +27,7 @@ app.use((error, req, res, next) => {
 });
 
 mongoose
-  .connect('mongodb+srv://adarsh-srivastava:tannu123@cluster0.fbydf.mongodb.net/places?retryWrites=true&w=majority')
+  .connect('mongodb+srv://adarsh-srivastava:tannu123@cluster0.fbydf.mongodb.net/mern?retryWrites=true&w=majority')
   .then(() => {
     app.listen(5000);
   })
