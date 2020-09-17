@@ -1,0 +1,9 @@
+{
+    "env": {
+        "DB_USER": "adarsh",
+        "DB_PASSWORD": "adarsh123",
+        "DB_NAME": "mern",
+        "GEOCODING_API_KEY": "4ab1fd8230a34ef0be3a54534d8a5244",
+        "JWT_KEY": "supersecret_dont_share"
+    }
+}

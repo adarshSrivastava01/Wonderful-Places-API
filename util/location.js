@@ -1,6 +1,6 @@
 const axios = require("axios");
 
-const API_KEY = "4ab1fd8230a34ef0be3a54534d8a5244";
+const API_KEY = process.env.GEOCODING_API_KEY;
 
 async function getCoordsForAddress(address) {
   const response = await axios.get(
